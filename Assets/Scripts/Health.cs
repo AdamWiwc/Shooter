@@ -6,19 +6,18 @@ public class Health : MonoBehaviour
 
 	public int maxHealth;
 
-	int health;
+	float health;
 
 	void Start()
 	{
 		health = maxHealth;
 	}
 
-	public void TakeDamage (int amount)
+	public void TakeDamage (float amount)
 	{
-		health -= amount;
-		if (health <= 0) 
-		{
-			Destroy(gameObject);
-		}
+		health = health - amount;
+		SendMessage("UpdateDamage", health);
+		Debug.Log(health);
+
 	}
 }

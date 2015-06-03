@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1d1721a9434c3ef4ba99631b55202915
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - muzzleTransform: {instanceID: 0}
+  - Grenade: {fileID: 5483638, guid: 7f7a7ef6d1037d34dac3b3488454a1a1, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
